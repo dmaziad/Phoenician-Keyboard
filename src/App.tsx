@@ -13,9 +13,8 @@ function App() {
   }, [value]);
   return (
     <div className="App">
-      <h4>𐤐𐤕</h4>
+      <h4>𐤐𐤕 𐤇𐤃𐤔</h4>
       <Input rightToLeft={rightToLeft} value={value} />
-      
       <Keyboard
         rightToLeft={rightToLeft}
         setRightToLeft={setRightToLeft}
