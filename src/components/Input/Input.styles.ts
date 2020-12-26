@@ -12,20 +12,14 @@ export const InputContainer: StyledComponent<
 > = styled.textarea`
   background-color: white;
   height: 25vh;
-  width: 275px;
-  min-width: 275px;
+  min-width: 325px;
+  max-width: 325px;
+  width: 325px;
   font-size: 16px;
   resize: none;
-
-  &.right {
-    text-align: right;
-  }
-
-  &.left {
-    text-align: left;
-  }
+  text-align: right;
 `;
 
 export const InputWrapper = styled.div`
-  margin: 0 0 25px 0;
+  margin: 0 0 25px 5px;
 `;
